@@ -3,10 +3,10 @@ let lineColor;
 
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 600);
   lineColor = color(100, 50, 150);
   
-  for (let i = 0; i < 200; i++){
+  for (let i = 0; i < 500; i++){
     let x = random (width/2);
     let y= random (height);
     
@@ -59,9 +59,9 @@ class Dot {
 
   display() {
     stroke(lineColor);
-    strokeWeight ranom(5);
+    strokeWeight (.5);
     point(this.x, this.y);
     line (this.x, this.y, width/2, height/2);
  
-
+}
 }
