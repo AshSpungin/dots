@@ -7,7 +7,7 @@ function setup() {
   lineColor = color(100, 50, 150);
   
   for (let i = 0; i < 500; i++){
-    let x = random (width/2);
+    let x = random (width);
     let y= random (height);
     
     dots[i] = new Dot (x,y);
